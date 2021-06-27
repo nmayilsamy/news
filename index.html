@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Legal News</title>
+		<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body onload= "cpholder()">
+<!-- Container class  start--> 
+<div class="container">
+	<!-- Container Navbar  start--> 
+	<div class="navbar">
+		<h1 class="navtitle"> NEWS-VIEW</h1>
+	</div>
+	<!-- Container Navbar ends here--> 
+	<!-- Container News content  start-->
+	<div id="articleholder" class="newscontentholder">
+		<!-- <div class="newsitem"> 
+			<label class="newstitle">The first article</label>
+			<p> the news article is     </p>
+			<right>  -->
+			<!-- Container button  start-->
+			 <!-- <div class="btnholder">
+			<button id="comments0"   class="btnclass">Comments </button>
+			<button id="Dislike0" class="btnclass">Dislike </button>
+			<button id="like0"class="btnclass">Like </button> </right>
+			</div> -->
+			<!-- Container button   end-->
+		<!-- </div>  -->
+	</div>
+	<div class="btnholderlm">
+	<button class="loadmore" onclick="collectdata()"> Load More </button>
+    </div>
+	<!-- Container News content  start-->
+</div>
+<!-- Container class  end--> 
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

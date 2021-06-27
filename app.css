@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+	border: 2px solid black;
+	flex-direction:column;
+	width: 100%;
+	min-height: 100vh;
+	align-content: center;
+	background-color: grey;
+}
+
+.navbar {
+	margin: 0px;
+	padding-top: 5px;
+	height: 125px;
+	background-color: ghostwhite;
+	border-top: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	align-content: center;
+	justify-content: center;
+}
+
+.navbar h1 {
+	text-align: center;
+	align-content: center;
+	font-size: 56px;
+	/* font-family: 'Monoton', cursive; */
+}
+
+.newscontentholder {
+	margin: 0px;
+	padding-top: 5px;
+	display: flex;
+	/*height: 600px; */
+	background-color: ghostwhite;
+	opacity: 40;
+	flex-direction: column;
+	border-bottom: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+.newsitem {
+	border: 2px solid lightgrey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 25px;
+	}
+
+.newstitle {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	font-stretch: 2px;
+}
+
+.newsitem p {
+	font-size: 18px;
+	color: black;
+	font-stretch: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: justify;
+    text-justify: inter-word;
+	}
+
+.btnclass {
+	border: 1px solid grey;
+	margin: 1px;
+	padding: 1px;
+	background-color: white;
+	align-self: center;
+	color: black;
+	transition: 0.7s;
+	overflow: hidden;
+	width: 70px;
+	border-radius: 1px;
+}
+
+.btnclass:hover {
+	border: 1px;
+	background-color: lightblue;
+	width: 100px;
+	}
+
+.btnholder {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.loadmore {
+	border: 1px solid grey;
+	margin: 5px;
+	padding: 5px;
+	background-color: white;
+	align-self: center;
+	color: black;
+	transition: 0.7s;
+	overflow: hidden;
+	width: 120px;
+	border-radius: 1px;
+	font-size: 18px;
+}
+
+.loadmore:hover {
+	border: 1px;
+	background-color: lightblue;
+	width: 150px;
+	}
+
+.btnholderlm {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
